@@ -1,0 +1,51 @@
+:root {
+  --fundo: #E6ECF6;
+}
+
+body {
+  background-color: var(--fundo);
+  font-family: 'Noto Sans';
+}
+
+#main {
+  display: flex;
+  gap: 1em;
+}
+
+form {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  gap: 1em;
+}
+
+form input, select, textarea {
+  padding: 10px;
+}
+
+#conteudo {
+  height: 100px;
+}
+
+textarea {
+  resize: none;
+}
+
+#botao-add {
+  background-color: #5E81C2;
+  color: white;
+  border: none;
+  transition: 0.5s;
+}
+
+#botao-add:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.notas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}

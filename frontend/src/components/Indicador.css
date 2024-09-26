@@ -1,0 +1,33 @@
+.indicador{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: end;
+  
+    border-radius: 10px 0px 0px 0px;
+}
+ 
+.adiavel {
+    background-color: #5E81C2;
+    box-shadow: 0px 3px 0px #06c0d549;
+}
+
+.importante {
+    background-color: #EED376;
+    box-shadow: 0px 3px 0px #b9d35a50;
+}
+
+.urgente {
+    background-color: #C55561;
+    box-shadow: 0px 3px 0px #f96c6c59;
+}
+
+.pontas{
+    width: 0px;
+    height: 0px;
+  
+    padding: 0px;
+    border-top: 25px solid transparent;
+    border-right: 25px solid white;
+    border-bottom: 25px solid transparent;
+}
